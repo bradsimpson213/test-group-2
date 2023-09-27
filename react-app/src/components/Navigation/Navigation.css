@@ -1,0 +1,65 @@
+.profile-dropdown {
+  display: flex;
+  justify-self: flex-end;
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: 'Open Sans';
+}
+
+#landing-nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.75rem 2.5em;
+  align-items: center;
+  font-weight: bold;
+  letter-spacing: .25px;
+}
+
+#landing-nav-home {
+  color: white;
+  text-decoration: none;
+  font-family: 'Black Han Sans';
+  font-weight: 100;
+  font-size: 18px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+#landing-nav-logo {
+  height: 1.5rem;
+  margin-right: .75rem;
+}
+
+#landing-nav-mid-container {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.landing-nav-text {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.login-logout {
+  all: unset;
+  cursor: pointer;
+  color: #23272a;
+  background-color: white;
+  padding: .60rem .75rem;
+  border-radius: 2rem;
+  font-size: 12px;
+  font-weight: 500;
+}
